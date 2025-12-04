@@ -3,6 +3,7 @@
 	import '$lib/components/Footer.svelte';
 	import '$lib/components/magnifier/Magnifier.svelte';
 	let { children } = $props();
+	export const ssr = false;
 </script>
 
 <svelte:head>
