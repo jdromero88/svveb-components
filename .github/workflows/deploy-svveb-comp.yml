@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 jobs:
-  prod-deploy:
+  build:
     name: Deploy components to prod
     runs-on: ubuntu-latest
     steps:
