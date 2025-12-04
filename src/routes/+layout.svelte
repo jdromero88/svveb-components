@@ -4,6 +4,8 @@
 	import '$lib/components/magnifier/Magnifier.svelte';
 	let { children } = $props();
 	export const ssr = false;
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <svelte:head>

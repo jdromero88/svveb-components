@@ -16,7 +16,7 @@ const config = {
 		  fallback: '404.html'
 		}),
     paths: {
-      base: dev ? '' : process.env.BASE_PATH
+      base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
     }
 	}
 };
