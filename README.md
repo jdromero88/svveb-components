@@ -1,7 +1,9 @@
-# svveb-components
+# svveb-components [![Deploy-Svveb-Components](https://github.com/jdromero88/svveb-components/actions/workflows/deploy-svveb-comp.yml/badge.svg)](https://github.com/jdromero88/svveb-components/actions/workflows/deploy-svveb-comp.yml)
 Web Components made with Svelte.
 - `node v24.11.1 (npm v11.6.2)`
 - `svelte v5.41.0`
+
+
 
 # sv
 
